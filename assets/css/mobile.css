@@ -1132,20 +1132,42 @@
         gap:10px
     }
     .card .card-inner {
-        height: 22.75rem;
+        height: 24.75rem;
     }
     .service-box-item-content h5 {
         margin-top: 0 !important;
       }
+      .service-box-item {
+        padding: 0;
+    }
       .service-box-item figure {
         width: 50px;
         height: 50px;
-        margin-bottom: 0px !important;
+        margin-bottom: 15px !important;
     }
     .corporate-slider {
         max-width: 300px; 
         margin: 0 auto; /* Center align the slider */
       }
+      .icon {
+        right: 27%;
+    width: 141px;
+    height: 65px;
+        background: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .icon::after {
+        content: none;
+      }
+      .icon::before {
+        content: none;
+      }
+      .iconBox {
+        border-radius: 0%;
+    }
+   
 }
 @media only screen and (max-width: 450px){
     .portfolio-img-title {

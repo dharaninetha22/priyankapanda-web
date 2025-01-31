@@ -15,20 +15,23 @@
       <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
       <title>Priyanka Panda | Home</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+      <link rel="stylesheet" href="assets/css/aos.css">
       <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+   
+   
    </head>
    <body>
       <!---header-and-banner-section-->
-      <div class="header-and-banner-con w-100 float-left position-relative">
-         <div class="header-and-banner-inner-con">
+      <div class="header-and-banner-con w-100 float-left position-relative">  
+         <div class="header-and-banner-inner-con ">
             <header class="main-header">
-               <!--navbar-start-->
+             
                <div class="container pl-0 pr-0">
                   <div class="header-con">
                      <nav class="navbar navbar-expand-lg navbar-light p-0">
                         <a class="navbar-brand p-0" href="index.html">
-                        <img src="assets/image/logo.webp" alt="logo-img" class="img-fluid">
+                        <img src="assets/image/logo.webp" alt="logo-img" class="img-fluid white-logo">
                         </a>
                         <button class="navbar-toggler p-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -47,18 +50,16 @@
                                  <a class="nav-link p-0" href="#service-con">Services</a>
                               </li>
                               
+                              
                               <li class="nav-item">
-                                 <a class="nav-link p-0" href="#Portfolio">Portfolio</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link p-0" href="#testimonials">Testimonials</a>
+                                 <a class="nav-link p-0" href="#testimonials">Recommendations</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link p-0" href="#blog">Blog</a>
                               </li>
                            </ul>
                            <div class="d-inline-block contact btn-holder">
-                              <!-- <a href="#Contact">Contact</a> -->
+                              
                               
                            
                                  <button class="btn btn-1 hover-filled-slide-left">
@@ -71,10 +72,10 @@
                      </nav>
                   </div>
                </div>
-               <!--navbar-end-->
+               
             </header>
-            <section class="banner-main-con" id="home">
-               <div class="container pl-0 pr-0">
+            <section class="banner-main-con gold-bg " id="home">
+               <!-- <div class="container pl-0 pr-0">
                   
                   <div class="footer-social-icon banner-social-icon mb-0">
                       <ul class="mb-0 list-unstyled">
@@ -89,33 +90,31 @@
                         </li>
                      </ul> 
                   </div>
-                  <div class="banner-con text-lg-left text-center">
+                  <div class="banner-con text-lg-left text-center ">
                      <div class="row">
                         <div class="col-lg-7 col-sm-12 d-flex justify-content-center flex-column">
-                           <div class="banner-left-con wow slideInLeft">
+                           <div class="banner-left-con wow ">
                               <div class="banner-heading">
-                                 <h2>Hello,I Am</h2>                                 
+                                 <h2 class="fade-right">Hello,I Am</h2>                                 
                                  <ul class="dynamic-txts">
                                     <li><h1>Priyanka Panda</h1></li>
                                     <li><h1>Priyanka Panda</h1></li>
                                     <li><h1>Priyanka Panda</h1></li>
                                     <li><h1>Priyanka Panda</h1></li>
                                   </ul>
-                                 <p>I'm passionate about helping brands - both personal and<br>
+                                 <p class="fade-down" >I'm passionate about helping brands - both personal and<br>
                                      corporate not just stand out, but make a real impact.
                                  </p>
                               </div>
-                              <!-- <div class="banner-btn generic-btn d-inline-block">
-                                 <a href="#Contact">Get In Touch</a>
-                              </div> -->
-                              <div class="btn-holder ">
+                             
+                              <div class="btn-holder fade-up ">
                            
                                  <button class="btn btn-1 btn-2 hover-filled-slide-left">
                                     <span class="text-white"><a href="#Contact" style="color: white !important;"> Get In Touch</a></span>
                                  </button>
                               
                               </div>
-                              <!-- <a href="#Portfolio" class="See-btn">See My Work</a> -->
+                            
                            </div>
                         </div>
                         <div class="col-lg-5 col-sm-12">
@@ -123,32 +122,7 @@
                               <figure class="mb-0">
                                  <img src="assets/image/white-banner2.png" alt="banner-right-img" id="banner-right-img">
                               </figure>
-                              <div class="best-award-con d-inline-block wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
-                                 <div class="best-award-inner-con">
-                                    <figure class="mb-0">
-                                       <img src="assets/image/branding.png" alt="cup-img" class="img-fluid">
-                                    </figure>
-                                    <div class="best-award-title">
-                                       <p class="mb-0">Brand
-                                          <br>
-                                          Strategist
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- <div class="best-award-con d-inline-block happy-con wow bounceInUp " data-wow-duration="1s" data-wow-delay="1s">
-                                 <div class="best-award-inner-con text-center">
-                                    <figure>
-                                       <img src="assets/image/user.png" alt="admin-icon" class="img-fluid">
-                                    </figure>
-                                    <div class="best-award-title d-inline-block ml-0">
-                                       <p class="mb-0 d-inline-block count">4</p>
-                                       <p class="mb-0 d-inline-block">k+</p>
-                                       <span class="d-block">Happy<br>
-                                       Customers</span>
-                                    </div>
-                                 </div>
-                              </div> -->
+                              
                               <div class="cursor"></div>
                               <div class="cursor2"></div>
                            </div>
@@ -156,7 +130,20 @@
                      </div>
                   </div>
                   
-               </div>
+               </div> -->
+            
+               <div class="containerrr portfolio-con3">
+                  <div class="left">
+                    <h1>Priyanka</h1>
+                  </div>
+                  <div class="right">
+                    <h1>&nbsp;Panda</h1>
+                  </div>
+                  <div class="imagee"></div>
+                </div>
+                
+                
+            
             </section> 
          </div>
       </div>
@@ -170,24 +157,39 @@
                  
                   <div class="col-lg-6 order-lg-0 order-2">
                      <!-- <img src="assets/image/WEBSITE_img.webp" alt=""> -->
-                     <figure class="mb-0 about-img" >
+                     <!-- <figure class="mb-0 about-img" >
                         <img src="assets/image/about-banner.png" alt="banner-right-img" >
-                     </figure>
+                     </figure> -->
+
+                     <!-- <div class="video-container">
+                        <video class="video-player" controls autoplay loop muted>
+                          <source src="https://dprstorage.b-cdn.net/dprstorage/priyanka/web1%20(1).mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                     </div> -->
+
+                     <div class="framed">
+                        <!-- Content inside the bordered container -->
+                        <video class="video-player" controls autoplay loop muted style="">
+                          <source src="assets/image/webb.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
                   </div>
                   <div class="col-lg-6 d-flex align-items-center">
-                     <div class="skill-right-con wow slideInRight" >
+                     <div class="skill-right-con wow " >
                         <!-- <h6>About My Self</h6> -->
-                        <h2>As the Co-founder and COO of two ventures</h2>
-                        <p>Dezign Shark, a digital marketing agency, and REESA, India's first real estate service aggregator.</p>
-                        <p>I understand the power of strategic branding from both sides of the table. Best brand strategist in Hyderabad, I bring a wealth of experience to every project.</p>
+                        <h2 class="fade-up">As the Co-founder and COO of two ventures</h2>
+                        <p class="fade-right">Dezign Shark, a digital marketing agency, and REESA, India's first real estate service aggregator.</p>
+                        <p class="fade-up">I understand the power of strategic branding from both sides of the table. Best brand strategist in Hyderabad, I bring a wealth of experience to every project.</p>
                         <!-- <div class="generic-btn download-bnt">
                            <a href="#" > View All Projects</a>                  
                         </div> -->
-                           <div class="btn-holder ">
+                           <!-- <div class="btn-holder fade-left">
                               <button class="btn btn-1 hover-filled-slide-left">
                                  <span><a href="#"> View All Projects</a></span>
                               </button>
-                           </div>
+                           </div> -->
 
                      </div>
                   </div>
@@ -202,11 +204,11 @@
          <div class="container">
            <div class="row">
              <div class="col-lg-12 text-white">
-               <h3 class="mb-3 text-white text-center personal">Personal Branding</h3>
-               <p class="text-justify mb-3">
+               <h3 class="mb-3 text-white text-center personal fade-down " >Personal Branding</h3>
+               <p class="text-justify mb-3 fade-right">
                  I've worked with a diverse range of clients, from companies to individuals, to achieve their branding and marketing goals. As a leading brand-building consultant, I’m dedicated to delivering exceptional results.
                </p>
-               <div class="logos-slider slider">
+               <div class="logos-slider slider fade-left mt-5">
                  <div class="slide"><img src="assets/image/KKR.png"></div>
                  <div class="slide"><img src="assets/image/roshan.png" style="padding: 12px;"></div>
                  <div class="slide"><img src="assets/image/RW-White-Logo.png" style="padding: 5px;"></div>
@@ -215,12 +217,12 @@
                  <div class="slide"><img src="assets/image/roshan.png" style="padding: 12px;"></div>
                </div>
              </div>
-             <div class="col-lg-6 text-white right mx-auto d-flex flex-column align-items-center mt-5">
-               <h3 class="mb-3 text-white text-center">Corporate Branding</h3>
-               <p class="text-justify mb-3">
+             <!-- <div class="col-lg-6 text-white right mx-auto d-flex flex-column align-items-center mt-5">
+               <h3 class="mb-3 text-white text-center fade-down">Corporate Branding</h3>
+               <p class="text-justify mb-3 fade-right">
                  I specialize in corporate branding for companies and individuals, delivering results that exceed expectations. As a top brand-building consultant, I'm dedicated to achieving your marketing goals.
                </p>
-               <div class="slider corporate-slider ">
+               <div class="slider corporate-slider fade-left">
                  <div class="slide"><img src="assets/image/Tejase.webp"></div>
                  <div class="slide"><img src="assets/image/Greenstone.webp"></div>
                  <div class="slide"><img src="assets/image/Laharika.webp"></div>
@@ -228,8 +230,32 @@
                  <div class="slide"><img src="assets/image/Dpr.webp"></div>
                  <div class="slide"><img src="assets/image/Vanabojanam.webp"></div>
                </div>
-             </div>
-           </div>
+             </div> -->
+                  <div class="brand">
+
+                     <h3 class="mb-3 text-white text-center fade-down">Corporate Branding</h3>
+                     <div class="cor">
+      
+                           <div class="col-lg-6 text-white mt-5">
+                              <p class="text-justify mb-3 fade-right">
+                              I specialize in corporate branding for companies and individuals, delivering results that exceed expectations. As a top brand-building consultant, I'm dedicated to achieving your marketing goals.
+                              </p>
+                           </div>
+                           <div class="col-lg-6 ">
+            
+                              <div class="slider corporate-slider fade-left">
+                              <div class="slide"><img src="assets/image/Tejase.webp"></div>
+                              <div class="slide"><img src="assets/image/Greenstone.webp"></div>
+                              <div class="slide"><img src="assets/image/Laharika.webp"></div>
+                              <div class="slide"><img src="assets/image/IKON.webp"></div>
+                              <div class="slide"><img src="assets/image/Dpr.webp"></div>
+                              <div class="slide"><img src="assets/image/Vanabojanam.webp"></div>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+             
+            </div>
          </div>
        </section>
        
@@ -337,8 +363,8 @@
             <div class="service-inner-con position-relative">
                <div class="generic-title text-center">
                   <h6 class="goldheading"></h6>
-                  <h2 class="mb-0 goldheading">Services</h2>
-                  <p class="my-5 ">Through my work, I've helped numerous businesses develop strong brand identities,
+                  <h2 class="mb-0 goldheading fade-down">Services</h2>
+                  <p class="my-5 fade-up ">Through my work, I've helped numerous businesses develop strong brand identities,
                      launch successful product campaigns, and leverage the power of social media
                      to connect with their audience in a meaningful way.</p>
                </div>
@@ -346,13 +372,13 @@
             <div class="container container1">
                <div class="row services-card">
                   <div class="col-lg-4 col-md-6">
-                     <div class="card">
+                     <div class="card fade-left">
                         <div class="card-inner" style="--clr:#fff;">
                           <div class="box">
                            
                             <div class="descBox">
                               <div class="service-box-item">
-                                <figure class="mb-0">
+                                <figure class="mb-0 fade-left">
                                   <img src="assets/image/branding.png" alt="service-icon" class="img-fluid">
                                 </figure>
                                 <div class="service-box-item-content">
@@ -371,14 +397,14 @@
                       </div>
                   </div>
                   <div class="col-lg-4 col-md-6">
-                     <div class="card">
+                     <div class="card fade-down">
                         <div class="card-inner" style="--clr:#fff;">
                           <div class="box">
                             
                             <div class="descBox">
                               <div class="service-box-item">
-                                 <figure class="mb-0">
-                                    <img src="assets/image/conversation.png" alt="service-icon" class="img-fluid">
+                                 <figure class="mb-0 ">
+                                    <img src="assets/image/conversation.png" alt="service-icon" class="img-fluid fade-up">
                                  </figure>
                                  <div class="service-box-item-content">
                                     <h5>Image Consulting</h5>
@@ -396,7 +422,7 @@
                       </div>
                   </div>
                   <div class="col-lg-4 col-md-6">
-                     <div class="card">
+                     <div class="card fade-right">
                         <div class="card-inner" style="--clr:#fff;">
                           <div class="box">
                             
@@ -425,7 +451,7 @@
                <div class="row services-card">
 
                   <div class="col-lg-4 col-md-6">
-                     <div class="card">
+                     <div class="card fade-up">
                         <div class="card-inner" style="--clr:#fff;">
                         <div class="box">
                            
@@ -450,7 +476,7 @@
                      </div>
                   </div>
                   <div class="col-lg-4 col-md-6">
-                     <div class="card">
+                     <div class="card fade-down">
                         <div class="card-inner" style="--clr:#fff;">
                         <div class="box">
                            
@@ -475,7 +501,7 @@
                      </div>
                   </div>
                   <div class="col-lg-4 col-md-6">
-                     <div class="card">
+                     <div class="card fade-up">
                         <div class="card-inner" style="--clr:#fff;">
                         <div class="box">
                            
@@ -750,7 +776,7 @@
          </div>
       </section>  -->
       <!-- tastimonials section -->
-      <section class="w-100 float-left portfolio-con portfolio-con1 paddingtop tastimonials-con" id="testimonials">
+      <section class="w-100 float-left portfolio-con  paddingtop " id="testimonials"> 
          <div class="container">
             <div class="row ">
                <!-- <div class="col-lg-5">
@@ -766,44 +792,61 @@
                         <div class="carousel-item active text-white">
                            <div class="testimonials-content">
                               <!-- <h6>Recommendations</h6> -->
-                              <h2 class="mb-md-4 mb-2 text-white">Recommendations</h2>
+                              <h2 class="mb-md-4 mb-2 text-white fade-up">Recommendations</h2>
                               <figure class="mb-0">
                                  <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
                               </figure>
                               <div class="testimonials-inner-content">
-                                 <p class="text-justify">Priyanka is by far one of the most fast learning, efficiently multi faceted mentee I've had in a long time. she is effective at executing a range of diverse tasks with presence of mind & accuracy. Admin, HR, Operations, Social Media Management, Content Writing, Tele Marketing & Sales.</p>
-                                 <span class="d-block auther-name1 text-white">Rajiv WILLIAMS</span>
-                                 <span class="d-block">I'm a Strategic Partner to Real Estate Developers & Builders.</span>
+                                 <p class="text-justify fade-down">Priyanka is by far one of the most fast learning, efficiently multi faceted mentee I've had in a long time. she is effective at executing a range of diverse tasks with presence of mind & accuracy. Admin, HR, Operations, Social Media Management, Content Writing, Tele Marketing & Sales.</p>
+                                 <div class="flex-container">
+                                    <img src="assets/image/user.png" alt="client-img2" class="client-img">
+                                    <div class="text-container">
+                                      <span class="d-block auther-name1 text-white">Rajiv WILLIAMS</span>
+                                      <span class="d-block">I'm a Strategic Partner to Real Estate Developers & Builders.</span>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
                         </div>
                         <div class="carousel-item">
                            <div class="testimonials-content">
                               
-                              <h2 class="mb-md-4 mb-2 text-white">Recommendations</h2>
+                              <h2 class="mb-md-4 mb-2 text-white fade-up">Recommendations</h2>
                               <figure class="mb-0">
                                  <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
                               </figure>
                               <div class="testimonials-inner-content">
-                                 <p class="text-justify">  I am delighted to recommend Priyanka Panda, a dynamic professional. She has been instrumental in driving business growth, forging strategic partnerships, and shaping our vision. Her entrepreneurial spirit and innovative approach have been pivotal to our success.
+                                 <p class="text-justify fade-down">  I am delighted to recommend Priyanka Panda, a dynamic professional. She has been instrumental in driving business growth, forging strategic partnerships, and shaping our vision. Her entrepreneurial spirit and innovative approach have been pivotal to our success.
                                  </p>
-                                 <span class="d-block auther-name1 text-white \">Anusha Kanneganti</span>
-                                 <span class="d-block">Digital Marketing Manager</span>
+                                
+                                 <div class="flex-container">
+                                    <img src="assets/image/user.png" alt="client-img2" class="client-img">
+                                    <div class="text-container">
+                                       <span class="d-block auther-name1 text-white \">Anusha Kanneganti</span>
+                                       <span class="d-block">Digital Marketing Manager</span>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
                         </div>
                         <div class="carousel-item">
                            <div class="testimonials-content">
                               
-                              <h2 class="mb-md-4 mb-2 text-white">Recommendations</h2>
+                              <h2 class="mb-md-4 mb-2 text-white fade-up">Recommendations</h2>
                               <figure class="mb-0">
                                  <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
                               </figure>
                               <div class="testimonials-inner-content">
-                                 <p class="text-justify">I am delighted to take a moment to recommend Priyanka who has been an outstanding Brand Strategist within our team. Over the course of our collaboration, she has consistently demonstrated an exceptional grasp of brand development and strategy, making a significant impact on our projects and overall brand positioning.
+                                 <p class="text-justify fade-down">I am delighted to take a moment to recommend Priyanka who has been an outstanding Brand Strategist within our team. Over the course of our collaboration, she has consistently demonstrated an exceptional grasp of brand development and strategy, making a significant impact on our projects and overall brand positioning.
                                  </p>
-                                 <span class="d-block auther-name1 text-white" >Kalyan SaiKalyan Sai</span>
-                                 <span class="d-block">BDE</span>
+                                 
+                                 <div class="flex-container">
+                                    <img src="assets/image/user.png" alt="client-img2" class="client-img">
+                                    <div class="text-container">
+                                       <span class="d-block auther-name1 text-white" >Kalyan SaiKalyan Sai</span>
+                                       <span class="d-block">BDE</span>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -826,13 +869,13 @@
          <div class="container">
             <div class="blog-inner-con position-relative">
                <div class="generic-title text-center">
-                  <h6 class="goldheading">Latest News</h6>
-                  <h2 class=" ">Blog & Articles</h2>
+                  <h6 class="goldheading fade-up">Latest News</h6>
+                  <h2 class=" fade-right">Blog & Articles</h2>
                </div>
                <div class="blog-box wow fadeInUp" >
                   <div class="row">
                      <div class="col-lg-4">
-                        <div class="blog-box-item">
+                        <div class="blog-box-item fade-up">
                            <div class="blog-img">
                               <a href="#" data-toggle="modal" data-target="#blog-model-1">
                                  <figure class="mb-0">
@@ -859,7 +902,7 @@
                         </div>
                      </div>
                      <div class="col-lg-4">
-                        <div class="blog-box-item">
+                        <div class="blog-box-item fade-down">
                            <div class="blog-img">
                               <a href="#" data-toggle="modal" data-target="#blog-model-2">
                                  <figure class="mb-0">
@@ -886,7 +929,7 @@
                         </div>
                      </div>
                      <div class="col-lg-4">
-                        <div class="blog-box-item mb-0">
+                        <div class="blog-box-item mb-0 fade-up">
                            <div class="blog-img">
                               <a href="#" data-toggle="modal" data-target="#blog-model-3">
                                  <figure class="mb-0">
@@ -1045,7 +1088,7 @@
                      <li class="d-inline-block border-left-0 pl-0"><a href="#home">Home</a></li>
                      <li class="d-inline-block"><a href="#about-con">About</a></li>
                      <li class="d-inline-block"><a href="#service-con">Services</a></li>
-                     <li class="d-inline-block"><a href="#Portfolio">Portfolio</a></li>
+                     <!-- <li class="d-inline-block"><a href="#Portfolio">Portfolio</a></li> -->
                      <li class="d-inline-block"><a href="#testimonials">Blog</a></li>
                      <li class="d-inline-block pr-0"><a href="#Contact">Contact</a></li>
                   </ul>
@@ -1065,7 +1108,7 @@
                </div>
             </div>
             <div class="copy-right-content text-center">
-               <p class="mb-0">&copy; 2022 | All rights reserved Designed By | <a href="https://dezignshark.com/" class="footer-link">Dezignshark.com</a></p>
+               <p class="mb-0">&copy; 2024 | All rights reserved Designed By | <a href="https://dezignshark.com/" class="footer-link">Dezignshark</a></p>
             </div>
          </div>
       </div> 
@@ -1689,6 +1732,7 @@
       <script src="assets/js/popper.min.js"> </script>
       <script src="assets/js/bootstrap.min.js"> </script>
       <script src="assets/js/custom-script.js"> </script>
+      <script src="assets/js/animate.js"></script>
 
       <script>
          filterSelection("all")

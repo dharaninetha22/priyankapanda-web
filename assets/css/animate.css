@@ -982,7 +982,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+
 }
+
+
 
 @-webkit-keyframes fadeInDownBig {
   0% {
@@ -1019,7 +1022,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: fadeInDownBig;
 }
 
-@-webkit-keyframes fadeInLeft {
+/* @-webkit-keyframes fadeInLeft {
   0% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
@@ -1031,7 +1034,50 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+} */
+/* General styles */
+.fade-up,
+.fade-down,
+.fade-left,
+.fade-right {
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
+
+/* Fade directions */
+.fade-up {
+  transform: translateY(20px);
+}
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-down {
+  transform: translateY(-20px);
+}
+.fade-down.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-left {
+  transform: translateX(-20px);
+}
+.fade-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-right {
+  transform: translateX(20px);
+}
+.fade-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
 
 @keyframes fadeInLeft {
   0% {
